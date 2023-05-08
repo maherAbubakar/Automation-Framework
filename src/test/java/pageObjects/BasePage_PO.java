@@ -235,6 +235,7 @@ public class BasePage_PO extends DriverFactory{
 
 
     public void navigateToURL(String url){
+
         driver.get(url);
     }
     public void waitForAlert_And_ValidateText(String text) {

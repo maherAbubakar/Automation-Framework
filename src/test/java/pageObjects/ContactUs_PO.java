@@ -29,45 +29,37 @@ public class ContactUs_PO extends BasePage_PO {
     }
 
     public void setUnique_FirstName() {
-//        sendingValueToWebElement(firstName_TextField, "Maher");
         sendingValueToWebElement("firstName", firstName_TextField, "Maher");
     }
 
     public void setUnique_LastName() {
-//        sendingValueToWebElement(lastName_TextField, "Abubakar");
         sendingValueToWebElement("lastName", lastName_TextField, "Abubakar");
     }
 
     public void setUnique_EmailAddress() {
-//        sendingValueToWebElement(emailAddress_TextField, "maher@gmail.com");
         sendingValueToWebElement("email", emailAddress_TextField, "maher@gmail.com");
 
     }
 
     public void setUnique_Comment() {
-//        sendingValueToWebElement(comment_TextField, "Hello I am ABubaakar");
         sendingValueToWebElement("comment", comment_TextField, "Hello I am ABubaakar");
     }
 
     public void setSpecific_FirstName(String firstName) {
-//        sendingValueToWebElement(firstName_TextField, firstName);
         sendingValueToWebElement("firstName", firstName_TextField, firstName);
 
 
     }
 
     public void setSpecific_LastName(String lastName) {
-//        sendingValueToWebElement(lastName_TextField, lastName);
         sendingValueToWebElement("firstName", lastName_TextField, lastName);
     }
 
     public void setSpecific_EmailAddress(String emailAddress) {
-//        sendingValueToWebElement(emailAddress_TextField, emailAddress);
         sendingValueToWebElement("firstName", emailAddress_TextField, emailAddress);
     }
 
     public void setSpecific_Comment(String comment) {
-//        sendingValueToWebElement(comment_TextField, comment);
         sendingValueToWebElement("firstName", comment_TextField, comment);
     }
 
